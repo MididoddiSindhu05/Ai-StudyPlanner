@@ -4,6 +4,7 @@ import cors from "cors";
 import helmet from "helmet";
 import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
+import 'dotenv/config'
 import { initDb } from "./server/db.js";
 import apiRoutes from "./server/routes/api.js";
 
