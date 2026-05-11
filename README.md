@@ -34,10 +34,10 @@ An ultra-modern, full-stack productivity suite for students, powered by Google's
    npm install
    ```
 3. Create a `.env` file based on `.env.example`:
-   ```env
-   MONGO_URI="your_mongodb_uri"
-   JWT_SECRET="your_secret_key"
-   GEMINI_API_KEY="your_gemini_key"
+```env
+DATABASE_URL="your_postgresql_connection_string"
+JWT_SECRET="your_secret_key"
+GEMINI_API_KEY="your_gemini_key"
    ```
 4. Start the development server:
    ```bash
